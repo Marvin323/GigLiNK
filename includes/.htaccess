@@ -1,0 +1,2 @@
+# includes/ is PHP-only, never served directly
+Require all denied

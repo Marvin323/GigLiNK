@@ -1,0 +1,2 @@
+# sql/ holds schema and migrations — never served over HTTP
+Require all denied

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-label="Camtel Engineering Services">
+  <defs>
+    <style>.b{fill:#1F3C8F}.o{fill:#F58220}</style>
+  </defs>
+  <!-- Big C -->
+  <path class="b" d="M90 42 A58 58 0 1 0 90 158 L90 128 A28 28 0 1 1 90 72 Z"/>
+  <!-- amtel text block -->
+  <text x="92" y="118" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" font-size="58" fill="#F58220" letter-spacing="-2">amtel</text>
+  <!-- Gear decoration right -->
+  <circle cx="155" cy="96" r="12" fill="none" stroke="#F58220" stroke-width="3"/>
+  <g stroke="#F58220" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="155" y1="76" x2="155" y2="68"/>
+    <line x1="155" y1="124" x2="155" y2="116"/>
+    <line x1="135" y1="96" x2="127" y2="96"/>
+    <line x1="175" y1="96" x2="183" y2="96"/>
+    <line x1="140" y1="81" x2="134" y2="75"/>
+    <line x1="170" y1="111" x2="176" y2="117"/>
+    <line x1="170" y1="81" x2="176" y2="75"/>
+    <line x1="140" y1="111" x2="134" y2="117"/>
+  </g>
+</svg>

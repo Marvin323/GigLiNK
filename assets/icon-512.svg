@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="88" fill="#1F3C8F"/>
+  <path d="M208 128 A128 128 0 1 0 208 384 L208 316 A60 60 0 1 1 208 196 Z" fill="#fff"/>
+  <text x="214" y="316" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" font-size="128" fill="#F58220" letter-spacing="-4">amtel</text>
+  <text x="110" y="420" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500" font-size="36" fill="#fff" opacity="0.9">engineering services</text>
+</svg>

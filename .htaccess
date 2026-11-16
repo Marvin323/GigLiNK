@@ -1,0 +1,26 @@
+# GigLink — root .htaccess
+# Security headers + MIME + friendly 404
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options  "nosniff"
+    Header set X-Frame-Options         "SAMEORIGIN"
+    Header set Referrer-Policy         "strict-origin-when-cross-origin"
+    Header set Permissions-Policy      "geolocation=(), microphone=(), camera=()"
+    # Cache busting for the service worker so updates roll out immediately
+    <FilesMatch "sw\.js$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddType application/manifest+json .json
+    AddType image/svg+xml             .svg
+</IfModule>
+
+# Hide sensitive files
+<FilesMatch "^(\.htaccess|\.env|composer\.(json|lock)|package(-lock)?\.json)$">
+    Require all denied
+</FilesMatch>
+
+# Pretty 404 if available
+ErrorDocument 404 /giglink/index.php

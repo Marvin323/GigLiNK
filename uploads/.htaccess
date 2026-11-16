@@ -1,0 +1,6 @@
+# uploads/ serves images only; never execute PHP from here
+<FilesMatch "\.(php|phtml|phar|html|htm|js)$">
+    Require all denied
+</FilesMatch>
+php_flag engine off
+Options -ExecCGI

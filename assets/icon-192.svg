@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="32" fill="#1F3C8F"/>
+  <path d="M78 48 A48 48 0 1 0 78 144 L78 118 A22 22 0 1 1 78 74 Z" fill="#fff"/>
+  <text x="80" y="118" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" font-size="48" fill="#F58220" letter-spacing="-1.5">amtel</text>
+</svg>

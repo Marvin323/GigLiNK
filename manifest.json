@@ -1,0 +1,23 @@
+{
+    "name": "GigLink — by Camtel",
+    "short_name": "GigLink",
+    "description": "A trust and reputation layer for the informal economy. Find real local gigs and the people to do them.",
+    "start_url": "/giglink/",
+    "scope": "/giglink/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#f0f2f5",
+    "theme_color": "#1F3C8F",
+    "lang": "en-UG",
+    "categories": ["business", "productivity"],
+    "icons": [
+        { "src": "/giglink/assets/icon-192.svg", "type": "image/svg+xml", "sizes": "192x192", "purpose": "any" },
+        { "src": "/giglink/assets/icon-512.svg", "type": "image/svg+xml", "sizes": "512x512", "purpose": "any" },
+        { "src": "/giglink/assets/icon-maskable.svg", "type": "image/svg+xml", "sizes": "512x512", "purpose": "maskable" }
+    ],
+    "shortcuts": [
+        { "name": "Browse jobs", "url": "/giglink/jobs.php", "icons": [{ "src": "/giglink/assets/icon-192.svg", "sizes": "192x192" }] },
+        { "name": "Find workers", "url": "/giglink/workers.php", "icons": [{ "src": "/giglink/assets/icon-192.svg", "sizes": "192x192" }] },
+        { "name": "Notifications", "url": "/giglink/notifications.php", "icons": [{ "src": "/giglink/assets/icon-192.svg", "sizes": "192x192" }] }
+    ]
+}
